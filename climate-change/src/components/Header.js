@@ -18,7 +18,7 @@ const Header = () => {
            <Button color = '#2b2b2b' text = 'Act Now ' />
            
            <p>Contributors:</p>
-           <p> Leonardo Matone, Nancy Ng, Luigi Agcaoili, Edwin Pineada</p>
+           <p> Leonardo Matone, Nancy Ng, Luigi Agcaoili, Edwin Pineda</p>
        </header>
         
         
