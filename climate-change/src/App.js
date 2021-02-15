@@ -1,25 +1,22 @@
-import Header from './components/Header'
-import Button from './components/Button'
+import Header from "./components/Header";
+import Button from "./components/Button";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Link,
+  Redirect,
+} from "react-router-dom";
+import index from "./pages/index";
 
-// //creating a styled button
-// const Button = styled.button``
-
-function button_clicked(){ //will print string that the butttons was clicked 
-  alert("you clicked me breh");
-}
-
-const App = () =>{
+const App = () => {
   return (
-    //root 
-    <div className = "container"> 
-     <Header />
-
-    </div>
-
-   
+    <Router>
+      <Switch>
+        <Route exact path="/" component={index} />
+      </Switch>
+    </Router>
   );
-}
+};
 
-
-
-export default App
+export default App;
