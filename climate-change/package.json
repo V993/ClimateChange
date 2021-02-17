@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^12.7.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",
     "styled-components": "^5.2.1",
     "web-vitals": "^1.1.0"
@@ -39,7 +40,6 @@
   "devDependencies": {
     "@types/styled-components": "^5.1.7"
   },
-  
   "resolutions": {
     "styled-components": "^5"
   }
