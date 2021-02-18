@@ -115,3 +115,28 @@ footer {
   margin-top: 30px;
   text-align: center;
 }
+
+.content {
+  padding-top: 5em;
+}
+
+hr {
+  color: #fff;
+  margin: 2em 0;
+}
+
+ol {
+  text-align: left;
+  padding-left: 5em;
+  line-height: 2em;
+}
+
+.list-header {
+  text-decoration: underline;
+}
+
+.note {
+  text-align: right;
+  font-size: 0.5em;
+  margin-left: 15em;
+}
