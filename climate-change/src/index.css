@@ -140,3 +140,8 @@ ol {
   font-size: 0.5em;
   margin-left: 15em;
 }
+
+img.resize {
+  max-width: 50%;
+  max-height: 50%;
+}
