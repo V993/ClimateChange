@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/ClimateChange/static/css/main.0ee06456.chunk.css",
+    "main.js": "/ClimateChange/static/js/main.540b0375.chunk.js",
+    "main.js.map": "/ClimateChange/static/js/main.540b0375.chunk.js.map",
+    "runtime-main.js": "/ClimateChange/static/js/runtime-main.0b3742e2.js",
+    "runtime-main.js.map": "/ClimateChange/static/js/runtime-main.0b3742e2.js.map",
+    "static/js/2.9ee28ccc.chunk.js": "/ClimateChange/static/js/2.9ee28ccc.chunk.js",
+    "static/js/2.9ee28ccc.chunk.js.map": "/ClimateChange/static/js/2.9ee28ccc.chunk.js.map",
+    "static/js/3.1225ee9a.chunk.js": "/ClimateChange/static/js/3.1225ee9a.chunk.js",
+    "static/js/3.1225ee9a.chunk.js.map": "/ClimateChange/static/js/3.1225ee9a.chunk.js.map",
+    "index.html": "/ClimateChange/index.html",
+    "static/css/main.0ee06456.chunk.css.map": "/ClimateChange/static/css/main.0ee06456.chunk.css.map",
+    "static/js/2.9ee28ccc.chunk.js.LICENSE.txt": "/ClimateChange/static/js/2.9ee28ccc.chunk.js.LICENSE.txt",
+    "static/media/amazonForest.a8c8f008.jpg": "/ClimateChange/static/media/amazonForest.a8c8f008.jpg",
+    "static/media/argriculture.974fd0d2.png": "/ClimateChange/static/media/argriculture.974fd0d2.png",
+    "static/media/billnye.538e4676.gif": "/ClimateChange/static/media/billnye.538e4676.gif",
+    "static/media/car.e47f51b7.jpg": "/ClimateChange/static/media/car.e47f51b7.jpg",
+    "static/media/coal.6bf316df.jpg": "/ClimateChange/static/media/coal.6bf316df.jpg",
+    "static/media/greenhouse.4d178e31.gif": "/ClimateChange/static/media/greenhouse.4d178e31.gif",
+    "static/media/greennewdeal.10d53cc5.jpg": "/ClimateChange/static/media/greennewdeal.10d53cc5.jpg",
+    "static/media/lionincity.80c545fc.jpg": "/ClimateChange/static/media/lionincity.80c545fc.jpg",
+    "static/media/logo.d603731d.png": "/ClimateChange/static/media/logo.d603731d.png",
+    "static/media/logoAR.a66c51dd.jpg": "/ClimateChange/static/media/logoAR.a66c51dd.jpg",
+    "static/media/logoEDF.39f74e91.jpg": "/ClimateChange/static/media/logoEDF.39f74e91.jpg",
+    "static/media/logoNC.2594993b.jpg": "/ClimateChange/static/media/logoNC.2594993b.jpg",
+    "static/media/logoNRDC.dc960cd5.jpg": "/ClimateChange/static/media/logoNRDC.dc960cd5.jpg",
+    "static/media/parisclimate.7d15e011.jpg": "/ClimateChange/static/media/parisclimate.7d15e011.jpg",
+    "static/media/parisclimateaccord.80fd737f.jpg": "/ClimateChange/static/media/parisclimateaccord.80fd737f.jpg",
+    "static/media/sealevelrise.eba1eeb3.gif": "/ClimateChange/static/media/sealevelrise.eba1eeb3.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0b3742e2.js",
+    "static/js/2.9ee28ccc.chunk.js",
+    "static/css/main.0ee06456.chunk.css",
+    "static/js/main.540b0375.chunk.js"
+  ]
+}
