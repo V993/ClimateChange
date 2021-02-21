@@ -5,7 +5,7 @@ import amazon from '../components/images/amazonForest.jpg'
 import car from '../components/images/car.jpg'
 import coal from '../components/images/coal.jpg'
 
-const action = () => {
+const actionPage = () => {
   return (
     <div className="container">
       <Header />
@@ -67,4 +67,4 @@ const action = () => {
   );
 };
 
-export default action;
+export default actionPage;
