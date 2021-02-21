@@ -7,7 +7,6 @@ import PropTypes from "prop-types"
 
 
 
-
 ReactDOM.render(
   <React.StrictMode>
     <App />

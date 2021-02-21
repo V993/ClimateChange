@@ -10,6 +10,7 @@ import {
 import index from "./pages/index";
 import act from "./pages/act";
 import notfound from "./pages/notfound";
+import donate from "./pages/donate"
 import causes from "./pages/causes"; 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
         <Route exact path="/" component={index} />
         <Route exact path="/actnow" component={act} />
         <Route exact path="/404" component={notfound} />
+        <Route exact path="/donate" component={donate} />
         <Route exact path = "/causes" component= {causes}/>
         <Redirect to="/404" />
       </Switch>

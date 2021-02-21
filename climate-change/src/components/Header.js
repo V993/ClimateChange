@@ -21,10 +21,13 @@ const Header = () => {
         <Button color="#2b2b2b" text="Causes " />
       </Link>
       <Button color="#2b2b2b" text="Action " />
-      <Button color="#2b2b2b" text="Influencers " />
+      <Link to="/donate">
+        <Button color="#2b2b2b" text="Donate " />
+      </Link>
       <Link to="/actnow">
         <Button color="#2b2b2b" text="Act Now " />
       </Link>
+
       <p>Contributors:</p>
       <p> Leonardo Matone, Nancy Ng, Luigi Agcaoili, Edwin Pineda</p>
     </header>
