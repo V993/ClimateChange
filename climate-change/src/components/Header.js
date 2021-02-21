@@ -13,7 +13,9 @@ const Header = () => {
       <img src={logo} />
       <br></br>
       <Button color="#2b2b2b" text="Causes " />
-      <Button color="#2b2b2b" text="Action " />
+      <Link to="/action">
+        <Button color="#2b2b2b" text="Action " />
+      </Link>
       <Button color="#2b2b2b" text="Influencers " />
       <Link to="/actnow">
         <Button color="#2b2b2b" text="Act Now " />
