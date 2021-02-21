@@ -13,7 +13,7 @@ const ImageLink = () => {
                 <br></br>
                 <p>
                     <a href="https://www.americanrivers.org/threats-solutions/rivers-and-climate-change/"> 
-                    <img class="resize" img src={logoAR} />
+                    <img class="resize" img src={logoAR}/>
                     </a>
                 </p>
                 {/*<p><a href="https://www.americanrivers.org/">American Rivers</a></p>*/}
@@ -37,7 +37,7 @@ const ImageLink = () => {
                 <br></br>
                 <p>
                     <a href="https://www.edf.org/">
-                    <img class="resize" img src={logoEDF} ></img>
+                    <img class="resize" img src={logoEDF}></img>
                     </a>
                 </p>
                 {/*<p><a href="https://www.edf.org/">Environmental Defense Fund</a></p>*/}

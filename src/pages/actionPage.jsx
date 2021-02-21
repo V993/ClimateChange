@@ -5,6 +5,7 @@ import amazon from '../components/images/amazonForest.jpg'
 import car from '../components/images/car.jpg'
 import coal from '../components/images/coal.jpg'
 
+
 const actionPage = () => {
   return (
     <div className="container">
