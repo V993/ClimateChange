@@ -18,13 +18,13 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route exact path="/home" component={index} />
+        <Route exact path="/ClimateChange" component={index} />
         <Route exact path="/actnow" component={act} />
         <Route exact path="/404" component={notfound} />
         <Route exact path="/action" component={actionPage} />
         <Route exact path="/donate" component={donate} />
         <Route exact path = "/causes" component= {causes}/>
-        <Redirect to="/home" />
+        <Redirect to="/ClimateChange" />
       </Switch>
     </Router>
   );
