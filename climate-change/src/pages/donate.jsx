@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from "../components/Header"
 import ImageLink from "../components/ImageLink"
+import Header from "../components/donatepage";
 
 const donate = () => {
     return (
