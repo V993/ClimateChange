@@ -17,8 +17,10 @@ const Header = () => {
       <Link to = "/causes">
         <Button color="#2b2b2b" text="Causes " />
       </Link>
-      <Button color="#2b2b2b" text="Action " />
-      <Button color="#2b2b2b" text="Influencers " />
+        <Button color="#2b2b2b" text="Action " />
+      <Link to = "/donate">
+        <Button color="#2b2b2b" text="Donate " />
+      </Link>
       <Link to="/actnow">
         <Button color="#2b2b2b" text="Act Now " />
       </Link>

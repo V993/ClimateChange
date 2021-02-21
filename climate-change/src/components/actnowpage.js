@@ -10,17 +10,21 @@ const Header = () => {
     <header>
       Climate change is devastating to communities globally.<br></br> Here's why
       you should care
+
      
       <Link to = "/">
        <img src={gif} />
       </Link>
       <br></br>
+     
       
       <Link to = "/causes">
         <Button color="#2b2b2b" text="Causes " />
       </Link>
       <Button color="#2b2b2b" text="Action " />
-      <Button color="#2b2b2b" text="Influencers " />
+      <Link to = "/donate">
+        <Button color="#2b2b2b" text="Donate " />
+      </Link>
       <Link to="/actnow">
         <Button color="#2b2b2b" text="Act Now " />
       </Link>
