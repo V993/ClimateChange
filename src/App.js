@@ -1,8 +1,7 @@
 import Header from "./components/Header";
 import Button from "./components/Button";
 import {
-  HashRouter,
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Switch,
   Link,
@@ -17,14 +16,17 @@ import actionPage from "./pages/actionPage";
 
 const App = () => {
   return (
-    <HashRouter basename="{process.env.PUBLIC_URL}">
-      <Route exact path="/" component={index} />
-      <Route exact path="/actnow" component={act} />
-      <Route path="/404" component={notfound} />
-      <Route exact path="/action" component={actionPage} />
-      <Route exact path="/donate" component={donate} />
-      <Route exact path="/causes" component={causes} />
-    </HashRouter>
+    <Router basename="/">
+      <Switch>
+        <Route exact path="/" component={index} />
+        <Route path="/actnow" component={act} />
+        <Route path="/404" component={notfound} />
+        <Route path="/action" component={actionPage} />
+        <Route path="/donate" component={donate} />
+        <Route path="/causes" component={causes} />
+        <Redirect to="/404" />
+      </Switch>
+    </Router>
   );
 };
 
