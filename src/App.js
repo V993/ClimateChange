@@ -18,12 +18,14 @@ import actionPage from "./pages/actionPage";
 const App = () => {
   return (
     <HashRouter basename="{process.env.PUBLIC_URL}">
-      <Route exact path="/" component={index} />
-      <Route exact path="/actnow" component={act} />
-      <Route path="/404" component={notfound} />
-      <Route exact path="/action" component={actionPage} />
-      <Route exact path="/donate" component={donate} />
-      <Route exact path="/causes" component={causes} />
+      <Switch>
+        <Route exact path="/" component={index} />
+        <Route exact path="/actnow" component={act} />
+        <Route path="/404" component={notfound} />
+        <Route exact path="/action" component={actionPage} />
+        <Route exact path="/donate" component={donate} />
+        <Route exact path="/causes" component={causes} />
+      </Switch>
     </HashRouter>
   );
 };
