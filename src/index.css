@@ -19,14 +19,27 @@ body {
   max-width: 600px;
   margin: 30px auto;
   overflow: auto;
-  min-height: 2700px;
+  min-height: 600px;
+  border: 1px solid white;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.container_page {
+  color: #fff;
+  align-content: center;
+  text-align: center;
+  max-width: 600px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 2000px;
   border: 1px solid white;
   padding: 30px;
   border-radius: 5px;
 }
 
 .header {
-  display: flex;
+  display: absolute;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
@@ -155,42 +168,42 @@ img.resize2 {
 
 #grad1 {
   border-radius: 20px;
-  height:150px;
+  height: 150px;
   background-color: #555555;
-  background-image: linear-gradient(gray,blue);
+  background-image: linear-gradient(gray, blue);
 }
 
 #grad2 {
   border-radius: 20px;
-  height:178px;
+  height: 178px;
   background-color: #555555;
-  background-image: linear-gradient(blue,green);
+  background-image: linear-gradient(blue, green);
 }
 
 #grad3 {
   border-radius: 20px;
-  height:186px;
+  height: 186px;
   background-color: #555555;
-  background-image: linear-gradient(green,white);
+  background-image: linear-gradient(green, white);
 }
 
 #grad4 {
   border-radius: 20px;
-  height:190px;
+  height: 190px;
   background-color: #555555;
-  background-image: linear-gradient(white,lightblue);
+  background-image: linear-gradient(white, lightblue);
 }
 
 #grad5 {
   border-radius: 20px;
-  height:150px;
+  height: 150px;
   background-color: #555555;
-  background-image: linear-gradient(darkgreen,gray);
+  background-image: linear-gradient(darkgreen, gray);
 }
 
 #rcorners1 {
   border-radius: 25px;
-  background: #73AD21;
+  background: #73ad21;
   padding: 20px;
   width: 200px;
   height: 150px;
@@ -198,8 +211,16 @@ img.resize2 {
 
 #rcorners2 {
   border-radius: 25px;
-  border: 2px solid #73AD21;
+  border: 2px solid #73ad21;
   padding: 20px;
   width: 200px;
   height: 150px;
+}
+/* 
+changing url colors  */
+a {
+  color: #fff;
+}
+a:hover {
+  color: #00f;
 }

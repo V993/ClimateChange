@@ -5,13 +5,14 @@ import logo from "./images/logo.png";
 import gif from "./images/billnye.gif"
 import { Link } from "react-router-dom";
 
+
 const Header = () => {
   return (
     <header>
       Climate change is devastating to communities globally.<br></br> Here's why
       you should care
 
-     
+
       <Link to = "/">
        <img src={gif} />
       </Link>

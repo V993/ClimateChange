@@ -4,9 +4,11 @@ import PropTypes from "prop-types";
 import gif from "./images/billnye.gif"
 import { Link } from "react-router-dom";
 
+
 const Header = () => {
   return (
     <header>
+     
       Climate change is devastating to communities globally.<br></br> Here's why
       you should care
       <Link to = "/">
@@ -29,6 +31,7 @@ const Header = () => {
       <Link to="/actnow">
         <Button color="#2b2b2b" text="Act Now " />
       </Link>
+      
 
     </header>
   );
