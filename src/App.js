@@ -16,16 +16,13 @@ import actionPage from "./pages/actionPage";
 
 const App = () => {
   return (
-    <Router basename="/">
-      <Switch>
-        <Route exact path="/" component={index} />
-        <Route path="/actnow" component={act} />
-        <Route path="/404" component={notfound} />
-        <Route path="/action" component={actionPage} />
-        <Route path="/donate" component={donate} />
-        <Route path="/causes" component={causes} />
-        <Redirect to="/404" />
-      </Switch>
+    <Router basename="{process.env.PUBLIC_URL}">
+      <Route exact path="/" component={index} />
+      <Route path="/actnow" component={act} />
+      <Route path="/404" component={notfound} />
+      <Route path="/action" component={actionPage} />
+      <Route path="/donate" component={donate} />
+      <Route path="/causes" component={causes} />
     </Router>
   );
 };
