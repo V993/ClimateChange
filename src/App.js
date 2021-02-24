@@ -17,7 +17,7 @@ import actionPage from "./pages/actionPage";
 
 const App = () => {
   return (
-    <HashRouter basename="/">
+    <HashRouter basename="{process.env.PUBLIC_URL}">
       <Switch>
         <Route exact path="/" component={index} />
         <Route exact path="/actnow" component={act} />
