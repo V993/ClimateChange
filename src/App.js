@@ -25,7 +25,6 @@ const App = () => {
         <Route exact path="/action" component={actionPage} />
         <Route exact path="/donate" component={donate} />
         <Route exact path="/causes" component={causes} />
-        <Redirect to="/404" />
       </Switch>
     </HashRouter>
   );
