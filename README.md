@@ -1,5 +1,5 @@
 # ClimateChange
-Information, resources, and data on climate change.
+Information, resources, and action on climate change.
 
 Website(Netlify)(functional): https://climatechangeinformation.netlify.app/#/
 
